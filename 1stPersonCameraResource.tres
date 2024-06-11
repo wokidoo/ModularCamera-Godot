@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="modular_camera_resource" load_steps=2 format=3 uid="uid://5223rcvmkr2i"]
+
+[ext_resource type="Script" path="res://addons/ModularCamera/modular_camera_resource.cs" id="1_2fce3"]
+
+[resource]
+script = ExtResource("1_2fce3")
+pivot_offset = Vector3(0, 0, 0)
+camera_offset = Vector3(0, 0, 0)
+_invert_pitch = true
+invert_pan = true
+pitch_threshold = 0.1
+pan_threshold = 0.1
+pitch_sensitivity = 0.1
+pan_sensitivity = 0.1
+pitch_upper_limit = 45.0
+pitch_lower_limit = -45.0

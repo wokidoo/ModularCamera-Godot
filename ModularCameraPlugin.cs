@@ -8,8 +8,8 @@ public partial class ModularCameraPlugin : EditorPlugin
 	public override void _EnterTree()
 	{
 		// Initialization of the plugin goes here.
-		var script = GD.Load<Script>("res://addons/ModularCamera/modular_camera.cs");
-		var texture = GD.Load<Texture2D>("res://addons/ModularCamera/icon.svg");
+		var script = GD.Load<Script>("res://addons/ModularCamera-Godot/modular_camera.cs");
+		var texture = GD.Load<Texture2D>("res://addons/ModularCamera-Godot/icon.svg");
 		this.AddCustomType("ModularCamera","Marker3D",script,texture);
 	}
 
